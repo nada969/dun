@@ -25,17 +25,11 @@ const Section3 = () =>{
                 </Card>
                 <Card className='post'>
                     <Card.Body>
-                    {/* <Player
-                        poster="/assets/images/1.jpeg"
-                        src="/assets/video/electric.mp4"
-                        
-                    /> */}
-                    
-                        {/* <Player src="https://www.youtube.com/watch?v=KYuylu6PVsI">
-
-                            <BigPlayButton position="center" />
-                        </Player> */}
-<img alt='lll' src="https://media.istockphoto.com/photos/new-creative-idea-light-bulb-blackboard-picture-id1152593999?k=20&m=1152593999&s=612x612&w=0&h=PuszPRfZZsematT0uqxTGdDMzPboBFJSQeB9am5b9Wc=" ></img>
+                        <Card.Text>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+                            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                        </Card.Text>
                     </Card.Body>
                 </Card>
             </CardGroup>
