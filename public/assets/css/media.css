@@ -1,0 +1,22 @@
+@media (min-width: 1201px) and (max-width: 1440px) {}
+@media (min-width: 1025px) and (max-width: 1200px) {header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (min-width: 993px) and (max-width: 1024px) {header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (min-width: 769px) and (max-width: 992px) {header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (min-width: 577px) and (max-width: 768px) { *{font-size: 12px} 
+header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (min-width: 426px) and (max-width: 576px) { *{font-size: 12px} 
+header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (min-width: 376px) and (max-width: 425px) { *{font-size: 12px} 
+header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (min-width: 321px) and (max-width: 375px) { *{font-size: 12px} 
+header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}
+@media (max-width: 320px) { *{font-size: 12px} 
+header .donce .card-donce-content .card-circle {
+    transform: translate(25%, 37vh);}}

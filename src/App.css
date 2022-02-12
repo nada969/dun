@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+* {
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1, h3 {
+  color: #C0AE4E;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.btn {
+  background: #C0AE4E;
+  color: white;
+  margin: auto;
+  border: none;
+  border-radius: 11px;
+  padding: 10px 12px;
 }
+
+button.btn:hover, button.btn:focus-visible, button.btn:focus-visible, button.btn:focus {
+  background-color: #847e36;
+  color: white;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.link {
+  color: white;
+  -webkit-text-decoration: auto;
+          text-decoration: auto;
+}
+
+.link:hover, .link:focus-visible {
+  color: white;
+  outline: none;
+}
+
+.header {
+  margin: auto;
+  background: url(./images/header.jpeg);
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+  padding: 0 31px;
+}
+
+.header nav {
+  background-color: transparent !important;
+  height: 11vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.header .headerBody {
+  padding: 10% 0;
+  height: 90vh;
+}
+
+.Section1 {
+  background-color: #262626;
+  text-align: center;
+  padding: 55px 15px 25px 15px;
+}
+
+.Section1 p {
+  margin-bottom: 0;
+}
+
+.Section1 .jvCTkj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 0px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Section1 .dpjTkl {
+  max-width: 90%;
+}
+
+.Section1 .dpjTkl .cjprJI {
+  max-height: 90%;
+}
+
+.section2, .section4 {
+  background-color: #262626;
+  padding: 55px 15px 25px 15px;
+}
+
+.section2 .card, .section4 .card {
+  background-color: transparent;
+  border: none;
+}
+
+.section2 .card .card-body .card-title, .section4 .card .card-body .card-title {
+  color: #C0AE4E;
+}
+
+.Section3 {
+  background-color: #C0AE4E;
+  padding: 55px 15px 25px 15px;
+}
+
+.Section3 .card {
+  background-color: transparent;
+  border: none;
+}
+
+.Section3 .card .card-body .card-title {
+  color: #C0AE4E;
+}
+
+.Section3 .card .card-body .video-react {
+  padding-top: 0 !important;
+}
+
+.Section3 .card .card-body .video-react video.video-react-video {
+  width: -webkit-fill-available;
+}
+
+.Section3 .card .card-body .video-react .video-react-loading-spinner, .Section3 .card .card-body .video-react .video-react-bezel.video-react-bezel-animation,
+.Section3 .card .card-body .video-react button.video-react-button.video-react-big-play-button.video-react-big-play-button-center,
+.Section3 .card .card-body .video-react .video-react-control-bar.video-react-control-bar-auto-hide {
+  display: none !important;
+}
+
+.form .footer {
+  margin: auto;
+  background: url(https://coolmaterial.com/wp-content/uploads/2020/10/Mercedes-Benz-Vision-EQXX-Concept-750-Mile-Electric-Car-1000x600.jpg);
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #C0AE4E;
+  position: relative;
+}
+
+.form .footer .card {
+  background-color: transparent;
+  border: none;
+}
+
+.form .footer .card .card-body {
+  padding: 3rem 5rem;
+}
+
+.form .footer .contact .card-title {
+  margin-bottom: 3.5rem;
+}
+
+.form .footer .form2 input, .form .footer .form2 textarea {
+  background: #dcd9d9;
+  border: none;
+  border-radius: 9px;
+  padding: 9px;
+  margin-bottom: 7px;
+}
+
+.form .footer .form2 input:focus-visible, .form .footer .form2 textarea:focus-visible {
+  outline: none;
+}
+
+.form .footer .form2 button.btn {
+  width: 47%;
+}
+/*# sourceMappingURL=App.css.map */

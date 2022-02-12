@@ -1,0 +1,174 @@
+$myColor1: #C0AE4E;
+$myColor2: #262626;
+$myColor3: white;
+
+  
+///////components
+*{
+    margin: 0%; 
+    box-sizing: border-box;
+    position:relative;
+    
+}
+p{
+    color: $myColor3;
+}
+h1 , h3{
+    color: $myColor1;
+}
+button.btn{
+    background:$myColor1;
+    color:$myColor3;
+    margin: auto;
+    border: none;
+    border-radius: 11px;
+    padding: 10px 12px;
+    &:hover , &:focus-visible , &:focus-visible , &:focus{
+        background-color: #847e36;
+        color: $myColor3;
+        outline: none;
+        box-shadow: none;
+    }
+}
+.link{
+    color:$myColor3;
+    text-decoration: auto;
+    &:hover , &:focus-visible{
+        color: $myColor3;
+        outline: none;
+    }
+}
+
+
+//////header
+.header{
+    margin: auto;
+    background: url(./images/header.jpeg);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color:$myColor3;
+    position: relative;
+    padding:0 31px;
+    nav{
+        background-color:transparent !important;
+        height: 11vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .headerBody{
+        padding: 10% 0;
+        height: 90vh;
+        
+    }
+}
+
+///////section1
+.Section1{
+    background-color: $myColor2;
+    text-align: center;
+    padding: 55px 15px 25px 15px;
+    p{
+        margin-bottom: 0;
+    }
+    .jvCTkj {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0px 4px;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .dpjTkl{
+        max-width: 90%;
+        .cjprJI {
+            max-height: 90%;
+        }
+    }
+}
+
+///////section2
+.section2 , .section4  {
+    background-color: $myColor2;
+    padding: 55px 15px 25px 15px;
+    .card{
+        background-color: transparent;
+        border: none;
+        .card-body{
+            .card-title{
+                color: $myColor1;
+            }
+        }
+    }
+}
+
+///////section3,3
+.Section3 {
+    background-color: $myColor1;
+    padding: 55px 15px 25px 15px;
+    .card{
+        background-color: transparent;
+        border: none;
+        .card-body{
+            .card-title{
+                color: $myColor1;
+            }
+            .video-react{
+                padding-top:0 !important;
+                video.video-react-video {
+                    width: -webkit-fill-available;
+                }
+                .video-react-loading-spinner, .video-react-bezel.video-react-bezel-animation ,
+                button.video-react-button.video-react-big-play-button.video-react-big-play-button-center,
+                .video-react-control-bar.video-react-control-bar-auto-hide{
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+//////footer
+.form{
+    .footer{
+        margin: auto;
+        background: url(https://coolmaterial.com/wp-content/uploads/2020/10/Mercedes-Benz-Vision-EQXX-Concept-750-Mile-Electric-Car-1000x600.jpg);
+        width: 100%;
+        height: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color:$myColor1;
+        position: relative;
+        .card{
+            background-color: transparent;
+            border: none;
+            .card-body{
+                padding: 3rem 5rem;
+            }
+        }
+        .contact{
+            .card-title{
+                margin-bottom: 3.5rem;
+            }
+        }
+        .form2{
+            input ,textarea {
+                background: #dcd9d9;
+                border: none;
+                border-radius: 9px;
+                padding: 9px;
+                margin-bottom: 7px;
+                &:focus-visible{
+                    outline: none;
+                }
+            }
+            button.btn{
+                width: 47%;
+            }
+        }
+    }
+}
