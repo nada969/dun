@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dun/static/css/main.79a91202.css",
+    "main.js": "/dun/static/js/main.14fca781.js",
+    "static/js/787.723b96b0.chunk.js": "/dun/static/js/787.723b96b0.chunk.js",
+    "static/media/header.jpeg": "/dun/static/media/header.6321b1850873107a1464.jpeg",
+    "index.html": "/dun/index.html",
+    "main.79a91202.css.map": "/dun/static/css/main.79a91202.css.map",
+    "main.14fca781.js.map": "/dun/static/js/main.14fca781.js.map",
+    "787.723b96b0.chunk.js.map": "/dun/static/js/787.723b96b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a91202.css",
+    "static/js/main.14fca781.js"
+  ]
+}
